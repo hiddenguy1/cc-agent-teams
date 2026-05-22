@@ -1,0 +1,59 @@
+providers:
+  kimi:
+    name: "Kimi"
+    base_url: "https://api.kimi.com/coding/"
+    auth_token: "YOUR_KIMI_COING_KEY"
+    models:
+      kimi-for-coding:
+        name: "kimi-for-coding"
+        description: "Kimi 编程专用模型"
+
+  deepseek:
+    name: "DeepSeek"
+    base_url: "https://api.deepseek.com/anthropic"
+    auth_token: "YOUR_DEEPSEEK_KEY"
+    models:
+      deepseek-v4-pro:
+        name: "deepseek-v4-pro"
+        aliases:
+          sonnet: "deepseek-v4-pro"
+          opus: "deepseek-v4-pro"
+      deepseek-v4-flash:
+        name: "deepseek-v4-flash"
+        aliases:
+          haiku: "deepseek-v4-flash"
+          sonnet: "deepseek-v4-pro"
+
+  glm:
+    name: "GLM"
+    base_url: "https://open.bigmodel.cn/api/anthropic"
+    auth_token: "YOUR_GLM_KEY"
+    models:
+      glm-5:
+        name: "glm-5"
+        aliases:
+          haiku: "glm-5"
+      glm-5-turbo:
+        name: "glm-5-turbo"
+        aliases:
+          sonnet: "glm-5-turbo"
+      glm-5.1:
+        name: "glm-5.1"
+        aliases:
+          opus: "glm-5.1"
+          sonnet: "glm-5-turbo"
+
+  minimax:
+    name: "MiniMax"
+    base_url: "https://api.minimaxi.com/anthropic"
+    auth_token: "{YOUR_MINIMAX_KET}"
+    models:
+      MiniMax-M2.7:
+        name: "MiniMax-M2.7"
+        aliases:
+          haiku: "MiniMax-M2.7"
+          opus: "MiniMax-M2.7"
+      MiniMax-M2.5:
+        name: "MiniMax-M2.5"
+        aliases:
+          sonnet: "MiniMax-M2.5"
