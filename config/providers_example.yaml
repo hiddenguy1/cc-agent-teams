@@ -2,7 +2,7 @@ providers:
   kimi:
     name: "Kimi"
     base_url: "https://api.kimi.com/coding/"
-    auth_token: "YOUR_KIMI_COING_KEY"
+    auth_token: "{YOUR_KIMI_COING_KEY}"
     models:
       kimi-for-coding:
         name: "kimi-for-coding"
@@ -11,7 +11,7 @@ providers:
   deepseek:
     name: "DeepSeek"
     base_url: "https://api.deepseek.com/anthropic"
-    auth_token: "YOUR_DEEPSEEK_KEY"
+    auth_token: "{YOUR_DEEPSEEK_KEY}"
     models:
       deepseek-v4-pro:
         name: "deepseek-v4-pro"
@@ -27,7 +27,7 @@ providers:
   glm:
     name: "GLM"
     base_url: "https://open.bigmodel.cn/api/anthropic"
-    auth_token: "YOUR_GLM_KEY"
+    auth_token: "{YOUR_GLM_KEY}"
     models:
       glm-5:
         name: "glm-5"
