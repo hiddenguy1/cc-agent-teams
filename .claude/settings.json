@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "agent-team": {
+      "command": "/Users/duguangjin/Projects/teammate_capacatity_builder/.venv/bin/python",
+      "args": [
+        "-m",
+        "agent_team.mcp_server"
+      ],
+      "env": {
+        "AGENT_TEAM_TEAM_NAME": "leader-planning",
+        "AGENT_TEAM_HUB_URL": "http://127.0.0.1:8765",
+        "AGENT_TEAM_AGENT_NAME": "backend",
+        "AGENT_TEAM_AGENT_ROLE": "member"
+      }
+    }
+  }
+}

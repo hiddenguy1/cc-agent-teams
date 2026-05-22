@@ -1,0 +1,36 @@
+roles:
+  architect:
+    name: "架构师"
+    description: "负责系统设计、架构决策、技术选型"
+    default_provider: "deepseek"
+    default_model: "deepseek-v4-pro"
+
+  backend:
+    name: "后端开发"
+    description: "负责服务端逻辑、API 实现、数据库设计"
+    default_provider: "kimi"
+    default_model: "kimi-for-coding"
+
+  frontend:
+    name: "前端开发"
+    description: "负责用户界面、客户端逻辑、交互实现"
+    default_provider: "glm"
+    default_model: "glm-5-turbo"
+
+  reviewer:
+    name: "代码审查员"
+    description: "负责代码审查、质量把控、最佳实践建议"
+    default_provider: "deepseek"
+    default_model: "deepseek-v4-flash"
+
+  tester:
+    name: "测试工程师"
+    description: "负责测试用例编写、Bug 发现、回归验证"
+    default_provider: "minimax"
+    default_model: "MiniMax-M2.5"
+
+  devops:
+    name: "运维工程师"
+    description: "负责 CI/CD、部署、监控、基础设施"
+    default_provider: "deepseek"
+    default_model: "deepseek-v4-flash"
